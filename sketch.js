@@ -1,7 +1,7 @@
 var img;
 var state = true;
 var r, d, posX, posY;
-var inc = 5;
+var inc = 10;
 var incrementX = inc;
 var incrementY = inc;
 
@@ -37,6 +37,7 @@ function draw() {
     textFont('Source Code Pro');
     textSize(height/3);
     textAlign(CENTER);
+    textStyle(BOLD);
     
     // HOUR
     var myColorH = get(width/2,height/3*2);
@@ -76,6 +77,7 @@ function draw() {
     textFont('Source Code Pro');
     textSize(height/3);
     textAlign(CENTER);
+    textStyle(BOLD);    
     
     // MINUTE
     var myColorM = get(width/2,height-1*(height/25));
