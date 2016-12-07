@@ -19,7 +19,7 @@ function myImg() {
 function setup() {
     createCanvas(windowWidth,windowHeight);
     
-    r = windowWidth/40;
+    r = 10;
     d = r*2;
     posX = random(r,windowWidth-r);
     posY = random(r,windowHeight-r);
